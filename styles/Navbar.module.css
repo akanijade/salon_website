@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+.container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1vh 5vw;
+}
+
+.container .nav .logo {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 18pt;
+}
+
+.container .nav .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 10pt;
+}
+
+.container .nav .navigation .a {
+  text-decoration: none;
+  color: black;
+  padding: 0 1vw;
+}
+
+.container .nav .navigation .a:hover {
+  color: #686456;
+}
+
+.container .nav .navigation #current {
+  color: #686456;
+}
+
+.container .nav .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 10pt;
+}
+
+.container .nav .login .profile {
+  width: 26px;
+  height: 26px;
+}
+
+.container .nav .login .profile .svg {
+  width: 100%;
+  height: 100%;
+}
+
+.container .nav .login .a {
+  padding: 0 1vw;
+  text-decoration: none;
+  color: black;
+}
+
+.container .nav .login .a:hover {
+  color: #686456;
+}
+/*# sourceMappingURL=Navbar.module.css.map */
