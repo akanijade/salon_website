@@ -1,0 +1,228 @@
+.container {
+	margin: 0;
+	width: 100vw;
+	.title {
+		width: 100%;
+		height: 45vh;
+		.h1, .p{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+			height: 50%;
+			width: 50%;
+			text-align: center;
+		}
+		.h1 {
+			align-items: flex-end;
+
+			font-family: 'Playfair Display';
+			font-weight: 400;
+			font-size: 42pt;
+		}
+
+		.p {
+			font-family: 'Montserrat';
+			font-weight: 300;
+			font-size: 11pt;
+			line-height: 1.5;
+		}	
+	}
+
+	.center_cards {
+		margin: 0;
+		height: 52vh;
+		width: 100vw;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.info {
+			height: 100%;
+			width: 90%;
+
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+
+			font-family: 'Montserrat';
+			font-weight: 300;
+			font-size: 12pt;
+
+			.contact, .hours, .address {
+				width: 31.5%;
+				height: 100%;
+				background-color: rgb(33,33,33);
+				
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				text-align: center;
+				line-height: 1.5;
+				color: white;
+
+				.h2 {
+					font-size: 14pt;
+					font-weight: 500;
+				}
+			}
+			.hours {
+				background-color: rgb(229,220,188);
+				color: black;
+			}
+		}
+	}
+
+	.form_container {
+
+		height: 80vh;
+		width: 100vw;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5vw 0;
+
+		font-family: 'Playfair Display';
+		font-weight: 400;
+		font-size: 10pt;
+		line-height: 2.5;
+
+		.form {
+			width: 90%;
+			height: 100%;
+			display: block;
+			.label, .input, .textarea {
+				display: block;
+			}
+			.name, .message, .contact {
+				padding: 3vh 0;
+				display: flex;
+				width: 100%;
+			}
+			.center_submit {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.button {
+					border-radius: 0;
+					border: 2px solid black;
+					width: 20vw;
+					max-width: 200px;
+					height: 5vh;
+					max-height: 50px;
+					background-color: black;
+					border: none;
+					color: white;
+					font-family: 'Montserrat';
+					font-weight: 300;
+					font-size: 11pt;
+					line-height: 1.5;
+				}
+				.button:hover {
+					background-color: white;
+					border: 2px solid black;
+					color: black;
+					transition: ease-in 0.3s;
+				}
+			}
+			.label {
+				width: 50%;
+			}
+			.input {
+				font-family: 'Playfair Display';
+				font-weight: 400;
+				font-size: 32pt;
+				height: 50pt;
+				width: 100%;
+				border: 1px solid black;
+				border-radius: 0;
+			}
+			.message .label {
+				width: 100%;
+				.textarea {
+					font-family: 'Playfair Display';
+					font-weight: 400;
+					font-size: 24pt;
+					width: 100%;
+					border: 1px solid black;
+					border-radius: 0;
+				}
+			}
+		}
+	}
+
+	.map {
+		margin: 0;
+		width: 100vw;
+		.iframe {
+			margin: 0;
+			width: 100%;
+		}
+		overflow: hidden;
+	}
+
+
+
+	@media only screen and (max-width: 1000px){
+		.center_cards {
+			.info {
+				width: 100%;
+			}
+		}
+	}
+
+	.footer {
+		margin: 0;
+
+		background-color: rgb(33,33,33);
+		width: 90vw;
+		height: 40vh;
+		padding: 0 5vw;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		font-family: 'Montserrat';
+		font-weight: 300;
+		font-size: 11pt;
+		line-height: 1.5;
+		color: white;
+		
+		
+		.logo {
+			width: 30%;
+			font-family: 'Playfair Display';
+			font-weight: 400;
+			font-size: 18pt;
+		}
+		
+		.contact {
+			width: 30%;
+		}
+		
+		.navigation {
+			display: flex;
+			justify-content: center;
+			.a {
+				color: white;
+				display: block;
+				text-decoration: none;
+				padding: 2vh 1vw;
+				.img {
+					height: 24px;
+					width: 24px;
+				}
+			}
+			.a:hover {
+				color: rgb(229,220,188);
+			}
+			#contact {
+				color: rgb(229,220,188);
+			}
+
+		}
+	}
+}

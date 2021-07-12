@@ -16,7 +16,7 @@
 .container .nav .logo {
   font-family: 'Playfair Display';
   font-weight: 400;
-  font-size: 18pt;
+  font-size: 28pt;
 }
 
 .container .nav .navigation {
@@ -31,7 +31,7 @@
           align-items: center;
   font-family: 'Montserrat';
   font-weight: 300;
-  font-size: 10pt;
+  font-size: 14pt;
 }
 
 .container .nav .navigation .a {
@@ -81,5 +81,35 @@
 
 .container .nav .login .a:hover {
   color: #686456;
+}
+
+@media only screen and (max-width: 375px) {
+  .container .nav .logo {
+    font-size: 12pt;
+  }
+  .container .nav .navigation {
+    font-size: 6pt;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container .nav .logo {
+    font-size: 18pt;
+  }
+  .container .nav .navigation {
+    font-size: 10pt;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container .nav .logo {
+    font-size: 11pt;
+  }
+  .container .nav .navigation {
+    font-size: 5.5pt;
+    font-weight: 600;
+  }
 }
 /*# sourceMappingURL=Navbar.module.css.map */
