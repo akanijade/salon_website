@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar'
 import contactStyle from '../styles/contact_us.module.css'
 
-export default function Videos() {
+export default function Videos(){
     const currentPage = (page) => 
     {
         if (page === props.page) 
@@ -14,7 +14,7 @@ export default function Videos() {
 		    }
     } 
 
-return (
+return(
     <div className={contactStyle.container}>
         <Navbar page="Videos"></Navbar>
         <div className={contactStyle.title}>
@@ -31,8 +31,10 @@ return (
 				</iframe>
 
     </div>
-)
+    
+    
 
 </div>
+    )
 
 }
