@@ -12,6 +12,12 @@ export default function ContactUs() {
 	return (
 		<div className={contactStyle.container}>
 			<Navbar page="Contact Us"></Navbar>
+			<style jsx global>{`
+				body{
+					margin: 0px;
+					padding: 0px;
+				}
+			`}</style>
 			<div className={contactStyle.title}>
 				<h1 className={contactStyle.h1}>Contact</h1>
 				<p className={contactStyle.p}>
@@ -58,27 +64,27 @@ export default function ContactUs() {
 			<div className={contactStyle.form_container}>
 				<form id="messageForm" className={contactStyle.form}>
 					<div className={contactStyle.name}>
-						<label className={contactStyle.label} for="firstName">
+						<label className={contactStyle.label} htmlFor="firstName">
 							First Name
 							<input className={contactStyle.input} type="text" name="firstName"/>
 						</label>
-						<label className={contactStyle.label} for="lastName">
+						<label className={contactStyle.label} htmlFor="lastName">
 							Last Name
 							<input className={contactStyle.input} type="text" name="lastName"/>
 						</label>
 					</div>
 					<div className={contactStyle.contact}>
-						<label className={contactStyle.label} for="email">
+						<label className={contactStyle.label} htmlFor="email">
 							Email
 							<input className={contactStyle.input} type="email" name="email"/>
 						</label>
-						<label className={contactStyle.label} for="phone">
+						<label className={contactStyle.label} htmlFor="phone">
 							Phone
 							<input className={contactStyle.input} type="tel" name="phone"/>
 						</label>
 					</div>
 					<div className={contactStyle.message}>
-						<label className={contactStyle.label} for="message">
+						<label className={contactStyle.label} htmlFor="message">
 							Leave us a message...
 							<textarea className={contactStyle.textarea} name="message" cols="50" rows="7"></textarea>
 						</label>
@@ -91,7 +97,7 @@ export default function ContactUs() {
 			<div className={contactStyle.map}>
 				<iframe className={contactStyle.iframe}
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.131517491791!2d-121.91485368441239!3d37.528396934068645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc7f004a76efb%3A0x5458eb0afb4a3262!2sKulsoom%20Point!5e0!3m2!1sen!2sus!4v1625808295148!5m2!1sen!2sus"
-					width="1920" height="500" allowfullscreen="" loading="lazy">
+					allowFullScreen="" loading="lazy">
 				</iframe>
 			</div>
 			<footer className={contactStyle.footer}>
