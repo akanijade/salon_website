@@ -8,7 +8,7 @@ export default function ContactUs() {
 		} else {
 			return "not_current"
 		}
-	} 
+	}
 	return (
 		<div className={contactStyle.container}>
 			<Navbar page="Contact Us"></Navbar>
@@ -21,7 +21,10 @@ export default function ContactUs() {
 			<div className={contactStyle.title}>
 				<h1 className={contactStyle.h1}>Contact</h1>
 				<p className={contactStyle.p}>
-					I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+					<p> Call us at the number provided to book your appointment, we also
+						accept walkins.
+					</p>
+
 				</p>
 			</div>
 			<div className={contactStyle.center_cards}>
@@ -30,7 +33,8 @@ export default function ContactUs() {
 						<div className={contactStyle.center_info}>
 
 							<h2 className={contactStyle.h2}>Phone:</h2>
-							<p>123-456-7890</p>
+							<p>408-799-2548</p>
+							<p>510-723-4704</p>
 							<h2 className={contactStyle.h2}>Email:</h2>
 							<p>info@mysite.com</p>
 						</div>
@@ -38,14 +42,16 @@ export default function ContactUs() {
 					<div className={contactStyle.hours}>
 						<div className={contactStyle.center_info}>
 
-							
+
 							<h2>Opening hours:</h2>
 							<p>
-								Monday 10am-7pm <br/>
-								Monday 10am-7pm <br/>
-								Monday 10am-7pm <br/>
-								Monday 10am-7pm <br/>
-								Monday 10am-7pm <br/>
+								Monday 10am-7pm <br />
+								Tuesday 10am-7pm <br />
+								Wednesday 10am-7pm <br />
+								Thursday 10am-7pm <br />
+								Friday 10am-7pm <br />
+								Saturday 10am-7pm <br />
+								Sunday Closed <br />
 							</p>
 						</div>
 					</div>
@@ -54,7 +60,7 @@ export default function ContactUs() {
 
 							<h2>Address:</h2>
 							<p>
-								500 Terry Francois Street <br/>
+								500 Terry Francois Street <br />
 								San Francisco, CA 94158
 							</p>
 						</div>
@@ -66,21 +72,21 @@ export default function ContactUs() {
 					<div className={contactStyle.name}>
 						<label className={contactStyle.label} htmlFor="firstName">
 							First Name
-							<input className={contactStyle.input} type="text" name="firstName"/>
+							<input className={contactStyle.input} type="text" name="firstName" />
 						</label>
 						<label className={contactStyle.label} htmlFor="lastName">
 							Last Name
-							<input className={contactStyle.input} type="text" name="lastName"/>
+							<input className={contactStyle.input} type="text" name="lastName" />
 						</label>
 					</div>
 					<div className={contactStyle.contact}>
 						<label className={contactStyle.label} htmlFor="email">
 							Email
-							<input className={contactStyle.input} type="email" name="email"/>
+							<input className={contactStyle.input} type="email" name="email" />
 						</label>
 						<label className={contactStyle.label} htmlFor="phone">
 							Phone
-							<input className={contactStyle.input} type="tel" name="phone"/>
+							<input className={contactStyle.input} type="tel" name="phone" />
 						</label>
 					</div>
 					<div className={contactStyle.message}>
@@ -104,7 +110,7 @@ export default function ContactUs() {
 				<div className={contactStyle.logo}>JS Parlour</div>
 				<div className={contactStyle.contact}>
 					<p>
-						500 Terry Francois Street<br/>
+						500 Terry Francois Street<br />
 						San Francisco, CA 94158
 					</p>
 					<p>
@@ -124,16 +130,16 @@ export default function ContactUs() {
 					</div>
 					<div className={contactStyle.socials}>
 						<a className={contactStyle.a} href="#">
-							<img className={contactStyle.img} src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png"/>
+							<img className={contactStyle.img} src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png" />
 						</a>
 						<a className={contactStyle.a} href="#">
-							<img className={contactStyle.img} src="https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png"/>
+							<img className={contactStyle.img} src="https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png" />
 						</a>
 						<a className={contactStyle.a} href="#">
-							<img className={contactStyle.img} src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png"/>
+							<img className={contactStyle.img} src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png" />
 						</a>
 						<a className={contactStyle.a} href="#">
-							<img className={contactStyle.img} src="https://static.wixstatic.com/media/9c486556465843c5850fabfd68dfae49.png"/>
+							<img className={contactStyle.img} src="https://static.wixstatic.com/media/9c486556465843c5850fabfd68dfae49.png" />
 						</a>
 					</div>
 				</div>
